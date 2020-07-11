@@ -13,10 +13,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
-# Check if a GPU is available
-CUDA = torch.cuda.is_available()
-print("CUDA :: ", CUDA)
-
 # # Model definition
 # The base paper for the VGG net can be found [here](https://arxiv.org/pdf/1409.1556.pdf)
 class VGG16(nn.Module):
